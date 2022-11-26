@@ -12,11 +12,12 @@ class HomePage extends StatelessWidget {
         backgroundColor: Color.fromRGBO(18, 18, 18, 1),
         body: Center(
           child: SizedBox(
-            width: 500,
-            height: 300,
+            width: 600,
+            height: 400,
             child: Card(
+                elevation: 0,
                 margin: EdgeInsets.all(4),
-                color: Color.fromRGBO(18, 18, 18, 1),
+                color: Color.fromRGBO(250, 249, 245, 1),
                 child: ProfileCard()),
           ),
         ));
