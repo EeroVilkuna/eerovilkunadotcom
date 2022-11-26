@@ -11,7 +11,8 @@ class ProfileCard extends StatelessWidget {
       const SizedBox(
         height: 12,
       ),
-      const CircleAvatar(radius: 60, backgroundImage: AssetImage('me2.png')),
+      const CircleAvatar(
+          radius: 60, backgroundImage: AssetImage('assets/me2.png')),
       const SizedBox(
         height: 12,
       ),
