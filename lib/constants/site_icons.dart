@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 
 class SiteIcons {
-  static const String linkedIn = 'assets/socialmedia/linkedIn/LI-In-Bug.png';
-  static const String gitHub =
-      'assets/socialmedia/github/GitHub-Mark-120px-plus.png';
+  static const String linkedIn = 'icons/LI-In-Bug.png';
+  static const String gitHub = 'icons/GitHub-Mark-Light-120px-plus.png';
 
   static Widget createIconAsset({
     required String assetPath,
